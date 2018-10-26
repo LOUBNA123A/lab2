@@ -5,6 +5,7 @@ using namespace std;
 
 #ifndef HASH_H_INCLUDED
 #define HASH_H_INCLUDED
+
 class hash1{
     private:
     static const int tailleTableau = 10;
@@ -24,7 +25,7 @@ class hash1{
         int  ajouterItem(string nom, string tel, string telCel);
         int  nombreItems(int index);
         void afficherItems();
-        void afficherItemsDansIndex(int index); // les items qui ont le mï¿½me resultat de hashage et qui sont empilï¿½s
+        void afficherItemsDansIndex(int index); // les items qui ont le même resultat de hashage et qui sont empilés
 
 };
 
